@@ -55,15 +55,12 @@ def main():
 
     print(cifrar(c, n))
 
-    cc = str(input('cadena a decifrar: ')).lower()
+def main2():
+    q = str(input('cadena a descifrar: ')).lower()
 
-    cn = int(input('clave numerica: '))
+    u = int(input('clave numerica: '))
 
-    print(decifrar(cc, cn))
-
-
-
-
+    print(decifrar(q, u))
 
 
 def info():
@@ -75,15 +72,15 @@ while ans:
     print("""
     1 añadir un mensaje
     2 eliminar un mensaje
-    3 info
+    3 descifrar un mensaje
     4 exit/salir""")
     ans=input("¿Que quieres hacer?")
     if ans=="1":
         main()
     elif ans=="2":
-        print("en proceso")
+        print(historial)
     elif ans=="3":
-        info()
+        main2()
     elif ans=="4":
         print("Adios")
         break
