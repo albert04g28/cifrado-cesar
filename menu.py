@@ -1,4 +1,6 @@
-historial={}
+mensaje1=[]
+mensaje2=[]
+historial={"mensaje1":mensaje1,"mensaje2":mensaje2}
 abc = 'abcdefghijklmnopqrstuvwxyz_'
 
 
