@@ -58,7 +58,7 @@ def main():
 
     print(cifrar(c, n))
 
-    libreria["msg"]=c
+    libreria[input("tipo de mensaje")]=c
     libreria["desplazamiento"]= n
     historial.append(libreria)
 def main2():
