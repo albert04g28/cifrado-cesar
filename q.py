@@ -99,4 +99,3 @@ while ans:
         break
     elif ans!="":
         print(" eso no es valido, intentalo de nuevo")
-
