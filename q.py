@@ -89,7 +89,7 @@ while ans:
     if ans=="1":
         main()
     elif ans=="2":
-        print("no")
+        historial.pop()
     elif ans=="3":
         main2()
     elif ans=="4":
